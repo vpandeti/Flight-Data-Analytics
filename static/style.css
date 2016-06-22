@@ -1,0 +1,197 @@
+body {
+	padding-top: 50px;
+	background-color: #EFEFEF;
+}
+
+visbody {
+	font-family: verdana;
+	background-color: #EFEFEF;
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.file-template {
+	width: 100%;
+}
+
+.center {
+	margin: auto;
+	width: 1000px;
+	height: 80%;
+	padding: 10px;
+}
+
+.button {
+	width: 120px;
+	background: #FFF;
+	border-radius: 7px;
+	box-shadow: 0 5px 45px #888888;
+	color: green;
+}
+
+.cube {
+	width: 25px;
+	height: 5px;
+	background-color: steelblue;
+	border-radius: 5px;
+}
+
+path {
+	stroke-width: 1;
+	fill: none;
+}
+
+.data1 {
+	stroke: green;
+}
+
+.data2 {
+	stroke: orange;
+}
+
+.axis {
+	shape-rendering: crispEdges;
+}
+
+.x.axis line {
+	stroke: lightgrey;
+}
+
+.x.axis .minor {
+	stroke-opacity: .5;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.x.axis text {
+	font-size: 10px;
+}
+
+.y.axis line, .y.axis path {
+	fill: none;
+	stroke: #000;
+}
+
+.y.axis text {
+	font-size: 12px;
+}
+
+.mygrid-wrapper-div {
+	overflow: scroll;
+	height: 600px;
+}
+
+.packets {
+	font-family: verdana;
+	font-size: 14px;
+	/* 	margin-right: 70px; */
+	background-color: #FFF;
+	box-shadow: 0 5px 45px #888888;
+}
+
+.chart {
+	margin-top: 50px;
+	text-align: center;
+	box-shadow: 10px 10px 45px #888888;
+	background-color: #FFF;
+}
+
+.chart1 {
+	width: 30%;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+.chart2 {
+	box-shadow: 10px 10px 45px #888888;
+	background-color: #FFF;
+}
+
+.legend {
+	font-size: 12px;
+}
+
+.rect {
+	stroke-width: 2;
+}
+
+.legend1 {
+	fill: white;
+	stroke: black;
+	opacity: 0.8;
+}
+
+.flow {
+	padding: 10px;
+	background-color: #EFEFEF;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.flowobject {
+	font-size: 11px;
+	font-style: bold;
+}
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.timeframe{
+	width:100%;
+	display:block;
+}
+
+.unselectlegend{
+	font-color:red;
+	opacity:0.5;
+	cursor:pointer;
+}
+.showlegend{
+	font-color:black;
+	opacity:1;
+	cursor:pointer;
+}
+
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+}
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+#flowselect{
+	color:black;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+}

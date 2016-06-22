@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework2</title>
+</head>
+<body>
+<div class="dropdown">
+<select id="map" style="float: right;"  onchange="mapSelect()">
+    <option value="-1">Select</option>
+    <option value="PCA_RANDOM_SAMPLING">PCA Random Sampling</option>
+    <option value="PCA_ADAPTIVE_SAMPLING">PCA Adaptive Sampling</option>
+    <option value="ISOMAP_RANDOM_SAMPLING">Isomap Random Sampling</option>
+    <option value="ISOMAP_ADAPTIVE_SAMPLING">Isomap Adaptive Sampling</option>
+    <option value="MDS_EUCLIDEAN_RANDOM_SAMPLING">MDS Euclidean Random Sampling</option>
+    <option value="MDS_EUCLIDEAN_ADAPTIVE_SAMPLING">MDS Euclidean Adaptive Sampling</option>
+    <option value="MDS_COSINE_RANDOM_SAMPLING">MDS Cosine Random Sampling</option>
+    <option value="MDS_COSINE_ADAPTIVE_SAMPLING">MDS Cosine Adaptive Sampling</option>
+    <option value="MDS_CORRELATION_RANDOM_SAMPLING">MDS Correlation Random Sampling</option>
+    <option value="MDS_CORRELATION_ADAPTIVE_SAMPLING">MDS Correlation Adaptive Sampling</option>
+    <option value="LATENT_SEMANTIC_ANALYSIS">Latent Semantic Analysis</option>
+</select>
+</div>
+<div id="body1"></div>
+<script src="{{ url_for('static', filename='d3.min.js')}}"></script>
+<script src="{{ url_for('static', filename='jquery.min.js')}}"></script>
+<script src="{{ url_for('static', filename='bar.js')}}"></script>
+<style src="{{ url_for('static', filename='style.css')}}"></style>
+</body>
+</html>
